@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Глянець</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- ==================== HEADER ==================== -->
@@ -11,7 +18,11 @@
     <header class="page-header">
       <div class="container container-header">
         <nav>
-          <a class="link logo-link" href="#">LOGO</a>
+          <a class="link logo-link" href="#">
+            <svg class="logo-icon" width="266" height="71">
+              <use href="./imsges/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
           <ul class="list list-header">
             <li class="list-header-item">Чому ми?</li>
             <li class="list-header-item">Партнери</li>
@@ -21,16 +32,27 @@
           </ul>
         </nav>
         <div class="container-header-social">
-          <ul class="header-social-list">
-            <li class="header-social-list-item">IMG</li>
-            <li class="header-social-list-item">IMG</li>
-            <li class="header-social-list-item">IMG</li>
+          <ul class="list header-social-list">
+            <li class="header-social-list-item">
+              <img src="./imsges/facebook.png" alt="facebook" />
+            </li>
+            <li class="header-social-list-item">
+              <img src="./imsges/instagram.png" alt="instagram" />
+            </li>
+            <li class="header-social-list-item">
+              <img src="./imsges/viber.png" alt="viber" />
+            </li>
           </ul>
         </div>
         <div class="container-header-contact">
           <p>Пн-Пт з 10 до 18</p>
           <a class="link link-contact" href="#">0 (800) 759-759</a>
         </div>
+        <button class="button-header" type="button">
+          <svg>
+            <use href="./imsges/icons.svg#icon-arrow-down"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -493,15 +515,18 @@
           <div class="contact">
             <h4 class="head-footer">Адреса нашого офісу</h4>
             <p class="address-office">
-              21016, Україна, м. Вінниця, <span class="address-office-bold">с. Зарванці, вул. Архітектурна, 5А</span>
+              21016, Україна, м. Вінниця,
+              <span class="address-office-bold"
+                >с. Зарванці, вул. Архітектурна, 5А</span
+              >
             </p>
             <a class="link gps" href="#">GPS: 49.234384, 28.394405</a>
           </div>
           <div class="contact">
             <h4 class="head-footer">Наші стартапи</h4>
-            <img src="#" alt = "УКРАЇНА ГРОМАД">
-            <img src="#" alt = "ALTERNATINE COMMERCE">
-            <img src="#" alt = "HELPDESK STAR">
+            <img src="#" alt="УКРАЇНА ГРОМАД" />
+            <img src="#" alt="ALTERNATINE COMMERCE" />
+            <img src="#" alt="HELPDESK STAR" />
           </div>
         </div>
       </div>

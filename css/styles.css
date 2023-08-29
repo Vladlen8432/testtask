@@ -1,0 +1,85 @@
+:root {
+  --color-background: #fff;
+  --color-font: #111;
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-font);
+}
+
+button {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+a {
+  color: var(--color-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1770px;
+  padding-left: 75px;
+  padding-right: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+/* ==================== HEADER ==================== */
+
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
+.list-header {
+  display: flex;
+  column-gap: 80px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 100%;
+  margin-left: 120px;
+}
+
+.header-social-list {
+  display: flex;
+  gap: 12px;
+  margin-left: 80px;
+}
+
+.container-header-contact {
+  margin-left: 40px;
+}
