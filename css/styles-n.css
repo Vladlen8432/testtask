@@ -7,7 +7,6 @@ body {
   background-color: var(--color-background);
   font-family: "Montserrat", sans-serif;
   color: var(--color-font);
-  margin: 0;
 }
 
 button {
@@ -38,7 +37,6 @@ h4,
 p {
   margin-top: 0;
   margin-bottom: 0;
-  padding: 0;
 }
 
 ul {
@@ -52,74 +50,76 @@ img {
 }
 
 .container {
-  padding-right: 75px;
-  padding-left: 75px;
+  max-width: 1770px;
+  padding-left: 52px;
+  padding-right: 52px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ==================== HEADER ==================== */
 
 .container-header {
-  padding-top: 16px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .list-header {
   display: flex;
-  gap: 100px;
-  margin-left: 154px;
-}
-
-.header-social-list {
-  display: flex;
-}
-
-.phone-num-header-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.button-arrow-down {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.list-header-link {
-  font-size: 20px;
+  column-gap: 70px;
+  font-size: 14px;
   font-weight: 600;
-  line-height: 125%;
-}
-
-.container-header-social {
-  margin-left: 115px;
+  line-height: 95%;
+  margin-left: 108px;
 }
 
 .header-social-list {
   display: flex;
-  gap: 12px;
+  gap: 8px;
+  margin-left: 80px;
 }
 
-.contact-header-container {
-  margin-left: 40px;
-}
-
-.button-arrow-down {
-  padding: 0;
+.head-soc-icon {
   width: 24px;
   height: 24px;
+}
+
+.container-header-contact {
+  margin-left: 28px;
+}
+
+.link-contact {
+  font-weight: 700;
+}
+
+.button-arrow-down {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   background: none;
   border: none;
+  margin-left: 6px;
 }
 
-.working-days {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 125%;
+/* ==================== MAIN ==================== */
+
+/* ===== Section ONE ===== */
+
+.container-sec-one {
+  margin-top: 82px;
 }
 
- .link-contact {
+.webstudio-num-one {
+  font-size: 14px;
   font-weight: 700;
-  line-height: 125%;
-} 
+  line-height: 120%;
+}
+
+.head-sec-one {
+  font-size: 62px;
+  font-weight: 900;
+  line-height: 110%;
+}
